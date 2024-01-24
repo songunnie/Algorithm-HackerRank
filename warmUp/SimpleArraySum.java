@@ -4,28 +4,28 @@ import java.io.*;
 import java.util.*;
 import java.util.stream.*;
 
-class Result {
+public class SimpleArraySum {
+    class Result {
 
-    /*
-     * Complete the 'simpleArraySum' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts INTEGER_ARRAY ar as parameter.
-     */
+        /*
+         * Complete the 'simpleArraySum' function below.
+         *
+         * The function is expected to return an INTEGER.
+         * The function accepts INTEGER_ARRAY ar as parameter.
+         */
 
-    public static int simpleArraySum(List<Integer> ar) {
-        // Write your code here
-        int sum = 0;
-        for(int n : ar) {
-            sum += n;
+        public static int simpleArraySum(List<Integer> ar) {
+            // Write your code here
+            int sum = 0;
+            for(int n : ar) {
+                sum += n;
+            }
+
+            return sum;
         }
 
-        return sum;
     }
 
-}
-
-public class SimpleArraySum {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
