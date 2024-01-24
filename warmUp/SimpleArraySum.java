@@ -3,9 +3,8 @@ package warmUp;
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
-import static java.util.stream.Collectors.toList;
 
-class SimpleArraySum {
+class Result {
 
     /*
      * Complete the 'simpleArraySum' function below.
@@ -26,7 +25,7 @@ class SimpleArraySum {
 
 }
 
-public class Solution {
+public class SimpleArraySum {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -37,7 +36,7 @@ public class Solution {
                 .map(Integer::parseInt)
                 .toList();
 
-        int result = SimpleArraySum.simpleArraySum(ar);
+        int result = Result.simpleArraySum(ar);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
