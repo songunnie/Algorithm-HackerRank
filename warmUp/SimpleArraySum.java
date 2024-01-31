@@ -14,6 +14,7 @@ public class SimpleArraySum {
          * The function accepts INTEGER_ARRAY ar as parameter.
          */
 
+        // TODO: 람다로 풀어보기
         public static int simpleArraySum(List<Integer> ar) {
             // Write your code here
             int sum = 0;

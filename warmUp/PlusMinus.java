@@ -15,6 +15,7 @@ public class PlusMinus {
          * The function accepts INTEGER_ARRAY arr as parameter.
          */
 
+        // TODO: 6자리 까지 딱 나오게 수정해볼것
         public static void plusMinus(List<Integer> arr) {
             // Write your code here
             float positiveCnt = 0;

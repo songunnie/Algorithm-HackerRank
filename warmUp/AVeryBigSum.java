@@ -16,6 +16,7 @@ public class AVeryBigSum {
          * The function accepts LONG_INTEGER_ARRAY ar as parameter.
          */
 
+        // TODO: 람다로 풀어보기
         public static long aVeryBigSum(List<Long> ar) {
             // Write your code here
             long sum = 0;
